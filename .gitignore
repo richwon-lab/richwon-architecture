@@ -1,0 +1,7 @@
+# Local JetBrains project settings
+/.idea/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
