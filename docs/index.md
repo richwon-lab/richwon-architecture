@@ -20,6 +20,7 @@
 | DOC-OVERVIEW   | [프로젝트 개요](project-overview.md)                            | 목적·사용자·범위·저장소 관계                           | 검토 중 | 제품 책임자 |
 | DOC-GOV        | [문서 관리 규칙](documentation-guide.md)                        | 작성·분리·검토·변경·추적 규칙                          | 검토 중 | 개발 담당자 |
 | BUS-COMPANY    | [회사 기본 정보](business/company-profile.md)                   | 확인된 회사 정보의 기준                               | 검토 중 | 제품 책임자 |
+| BUS-NAMEPLATE  | [명판 업무 기본 개념](business/nameplate-basics.md)             | 명판 업무 용어, 제작 단위와 작업 자료의 기준           | 검토 중 | 제품 책임자 |
 | BUS-WORKFLOW   | [현재 업무 흐름](business/current-workflow.md)                  | 주문부터 도안·생산·후공정까지의 업무 기록              | 검토 중 | 제품 책임자 |
 | BUS-SCENARIOS  | [대표 업무와 예외](business/scenarios.md)                       | 대표 흐름·기존 시험 사례·현장 확인 사항                | 검토 중 | 제품 책임자 |
 | SRS-DRAFTING   | [명판 도안 자동화 요구 후보](requirements/design-automation.md) | 도안 개선, 원문·수량·형상, Type3 결과와 과거 시험 근거 | 검토 중 | 제품 책임자 |
@@ -49,10 +50,10 @@
 
 ## 현재 작업
 
-- **현재 검토** — README부터 정식 문서를 한 편씩 [문서 점검표](documentation-guide.md#9-문서-점검표)로 검토한다.
+- **문서 검토** — README 검토 완료. 다음 검토 대상은 이 문서(DOC-INDEX)다. [문서 점검표](documentation-guide.md#9-문서-점검표)를 사용한다.
 
 - **다음 작업** — RV-05에서 도안 자동화 우선·인계 우선·제한 결합을 비교한다. [대표 업무와 예외](business/scenarios.md)의 기존 기록을 사용하고 범위에 영향을 주는 현재 차이만 확인한다.
-- **확정 사항** — 제품명 R-edit / 알에딧(RV-01), 공통 설계·관리와 구현 저장소 분리(RV-02).
+- **확정 사항** — 공통 설계·관리와 구현 저장소 분리(RV-02).
 - **준비 상태** — 현재 업무 기록과 대표·예외 시나리오, 공통 요구와 도안 품질 후보가 있다. 실행 코드와 현 제품 인수 시험 결과는 없다.
 
 ## 후속 산출물 계획
