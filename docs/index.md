@@ -14,7 +14,7 @@
 ## 현재 작업
 
 - **현재 단계** — 첫 도입 범위와 인수 기준을 정하고 있다. 업무 흐름, 대표 시나리오와 예외, 공통 요구사항과 도안 품질 후보를 정리했다. 구현과 인수 시험은 시작 전이다.
-- **문서 검토** — README, 문서 목록, 프로젝트 개요 검토를 마쳤다. 다음은 [명판 업무 기본 개념](business/nameplate-basics.md)을 [문서 점검표](documentation-guide.md#9-문서-점검표)로 검토한다.
+- **문서 검토** — README, 문서 목록, 프로젝트 개요, 명판 업무 기본 개념 검토를 마쳤다. 다음은 [현재 업무 흐름](business/current-workflow.md)의 ‘목적과 기록 범위’부터 [문서 점검표](documentation-guide.md#9-문서-점검표)로 검토한다.
 - **다음 제품 결정** — [초기 검토 목록](reviews/initial-review.md)의 RV-05에서 첫 도입 범위를 정한다. 도안 자동화 우선, 자료 인계 우선, 두 업무를 제한적으로 함께 도입하는 안을 [대표 업무와 예외](business/scenarios.md)에 대입해 비교한다. 도안 자동화를 한 대의 PC에서 먼저 도입할 수 있는지 살피고, 범위를 바꿀 만한 현장 차이만 확인한다.
 - **이미 확정한 사항** — 공통 설계·관리 저장소와 구현 저장소는 분리한다. [RV-02 결정 기록](reviews/initial-review.md#rv-02--설계관리와-구현-저장소-분리)
 
@@ -49,7 +49,7 @@
 | --- | --- | --- | --- | --- |
 | [사용성 요구사항](requirements/usability.md) | 처음 맡는 직원의 업무 수행과 사용성 평가 | SRS-USABILITY | 검토 중 | 제품 책임자 |
 | [업무 설정 및 편집 요구사항](requirements/configuration.md) | 직원이 변경하는 업무 정보·고객별 규칙과 적용 방식 | SRS-CONFIG | 검토 중 | 제품 책임자 |
-| [명판 도안 자동화 요구 후보](requirements/design-automation.md) | 원문·수량·형상 보존, Type3 출력과 과거 시험 근거 | SRS-DRAFTING | 검토 중 | 제품 책임자 |
+| [명판 도안 자동화 요구 후보](requirements/design-automation.md) | 원문·수량·형상 보존, Type Edit 출력과 과거 시험 근거 | SRS-DRAFTING | 검토 중 | 제품 책임자 |
 | [업무 연속성 및 인계 요구사항](requirements/continuity.md) | 장애 중 업무 지속과 다음 담당자에게 자료를 넘기는 조건 | SRS-CONTINUITY | 검토 중 | 제품 책임자 |
 
 요구의 확정 여부와 시험 결과는 각 요구사항 문서의 항목별 상태에서 확인한다.
