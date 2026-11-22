@@ -14,7 +14,7 @@
 ## 현재 작업
 
 - **현재 단계** — 첫 도입 범위와 인수 기준을 정하고 있다. 업무 흐름, 대표 시나리오와 예외, 공통 요구사항과 도안 품질 후보를 정리했다. 구현과 인수 시험은 시작 전이다.
-- **문서 검토** — README, 문서 목록, 프로젝트 개요 검토를 마쳤다. 다음은 [회사 기본 정보](business/company-profile.md)를 [문서 점검표](documentation-guide.md#9-문서-점검표)로 검토한다.
+- **문서 검토** — README, 문서 목록, 프로젝트 개요 검토를 마쳤다. 다음은 [명판 업무 기본 개념](business/nameplate-basics.md)을 [문서 점검표](documentation-guide.md#9-문서-점검표)로 검토한다.
 - **다음 제품 결정** — [초기 검토 목록](reviews/initial-review.md)의 RV-05에서 첫 도입 범위를 정한다. 도안 자동화 우선, 자료 인계 우선, 두 업무를 제한적으로 함께 도입하는 안을 [대표 업무와 예외](business/scenarios.md)에 대입해 비교한다. 도안 자동화를 한 대의 PC에서 먼저 도입할 수 있는지 살피고, 범위를 바꿀 만한 현장 차이만 확인한다.
 - **이미 확정한 사항** — 공통 설계·관리 저장소와 구현 저장소는 분리한다. [RV-02 결정 기록](reviews/initial-review.md#rv-02--설계관리와-구현-저장소-분리)
 
@@ -39,7 +39,6 @@
 | 문서 | 확인할 내용 | ID | 상태 | 내용 책임 |
 | --- | --- | --- | --- | --- |
 | [프로젝트 개요](project-overview.md) | 제품 목적, 사용자, 업무 범위와 저장소 구성 | DOC-OVERVIEW | 검토 중 | 제품 책임자 |
-| [회사 기본 정보](business/company-profile.md) | 확인된 회사명과 기본 정보 | BUS-COMPANY | 검토 중 | 제품 책임자 |
 | [명판 업무 기본 개념](business/nameplate-basics.md) | 명판 업무 용어, 제작 단위와 작업 자료 | BUS-NAMEPLATE | 검토 중 | 제품 책임자 |
 | [현재 업무 흐름](business/current-workflow.md) | 주문부터 도안·생산·후공정까지의 작업 순서 | BUS-WORKFLOW | 검토 중 | 제품 책임자 |
 | [대표 업무와 예외](business/scenarios.md) | 대표 흐름, 주요 예외와 현장 확인 사항 | BUS-SCENARIOS | 검토 중 | 제품 책임자 |
